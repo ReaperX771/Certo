@@ -39,7 +39,7 @@ function Read() {
           
           {/* Read our story card */}
           <AnimatedBlock direction="left">
-            <div className="flex flex-col gap-5 bg-linear-to-t from-[#FCB338] to-[#F9C557] px-10 py-10 rounded-3xloverflow-y-hidden">
+            <div className="flex flex-col gap-5 bg-linear-to-t from-[#FCB338] to-[#F9C557] px-10 py-10 rounded-3xl overflow-y-hidden">
               <h1 className="font-extrabold text-[#02033B] text-lg">Read our story</h1>
               <h1 className="text-[#02033B]">
                 Find out why thousands trust Certo to secure
