@@ -11,8 +11,8 @@ import wired from '../assets/Images/wired.png'
 
 function Loved() {
   return (
-    <section className="bg-linear-to-t from-[#FCB338] to-[#F9C557] mb-20 py-16 overflow-hidden m">
-      <div className="m-auto w-[90%] max-w-7xl">
+    <section className="bg-linear-to-t from-[#FCB338] to-[#F9C557] mb-20 py-16 overflow-x-hidden">
+      <div className="m-auto w-[90%] max-w-7xl overflow-x-hidden">
         <h1 className="font-extrabold text-[#02033B] text-xl sm:text-3xl sm:text-left text-center">
           Loved by thousands of iPhone
           <br className="hidden sm:block" /> and Android users alike

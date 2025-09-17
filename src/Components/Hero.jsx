@@ -57,8 +57,8 @@ function Hero() {
   }, [])
 
   return (
-    <section id='android'>
-      <div className="relative m-auto mt-20 mb-24 xl:ml-33 w-[90%] max-w-7xl">
+    <section id='android' className="overflow-x-hidden">
+      <div className="relative m-auto mt-20 mb-24 xl:ml-33 w-[90%] max-w-7xl overflow-x-hidden">
         <div className="flex lg:flex-row flex-col-reverse gap-10">
           
           {/* Left side text */}
