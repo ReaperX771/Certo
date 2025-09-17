@@ -34,14 +34,14 @@ function Footer() {
   }, [])
 
   return (
-    <section id='sign' className='bg-[#02033B] py-20 overflow-hidden'>
+    <section id='sign' className='bg-[#02033B] py-20 overflow-x-hidden'>
       <div className='m-auto w-[90%]'>
         <div className='flex flex-wrap sm:justify-center xl:justify-between items-start gap-20 md:gap-40 xl:gap-0'>
 
           {/* Left - Scan Detect */}
           <div
             ref={leftRef}
-            className={`flex flex-col gap-10 transform transition-all duration-1000 ease-out
+            className={`flex flex-col gap-10 transform transition-all duration-1000 ease-out overflow-x-hidden
               ${leftVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}
           >
             <h1 className='font-bold text-white text-lg'>Scan. Detect. Remove.</h1>      
@@ -75,7 +75,7 @@ function Footer() {
           {/* Left 2 - Certo + links */}
           <div
             ref={left2Ref}
-            className={`transform transition-all duration-1000 ease-out
+            className={`transform transition-all duration-1000 ease-out overflow-x-hidden
               ${left2Visible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}
           >
             <div>
@@ -96,7 +96,7 @@ function Footer() {
           {/* Right - Newsletter */}
           <div
             ref={rightRef}
-            className={`flex flex-col gap-7 transform transition-all duration-1000 ease-out
+            className={`flex flex-col gap-7 transform transition-all duration-1000 ease-out overflow-x-hidden
               ${rightVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'}`}
           >
             <div className='flex flex-col gap-7 bg-[#FFC247] px-7 py-10 rounded-[42px] w-fit'>

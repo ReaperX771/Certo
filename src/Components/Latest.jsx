@@ -55,8 +55,8 @@ function AnimatedCard({ img, label, title, text }) {
 
 function Latest() {
   return (
-    <section id='help' className="bg-[#F3F8FF] py-20">
-      <div className="m-auto w-[90%]">
+    <section id='help' className="bg-[#F3F8FF] py-20 overflow-x-hidden">
+      <div className="m-auto w-[90%] overflow-x-hidden">
         <h1 className="mb-20 font-extrabold text-[#02033B] text-4xl text-center">
           Latest Insight
         </h1>

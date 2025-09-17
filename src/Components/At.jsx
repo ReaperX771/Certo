@@ -47,7 +47,7 @@ function At() {
           {/* Left side text */}
           <div
             ref={textRef}
-            className={`transform transition-all duration-700 ease-out
+            className={`transform transition-all duration-700 ease-out overflow-x-hidden
               ${textVisible ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`}
           >
             <h1 className='font-bold text-[#02033B] text-xl md:text-3xl'>
@@ -79,7 +79,7 @@ function At() {
           {/* Right side image */}
           <div
             ref={imgRef}
-            className={`transform transition-all duration-700 ease-out
+            className={`transform transition-all duration-700 ease-out overflow-x-hidden
               ${imgVisible ? "translate-x-0 opacity-100" : "translate-x-20 opacity-0"}`}
           >
             <img

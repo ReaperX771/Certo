@@ -60,11 +60,11 @@ function Get() {
   }, [])
 
   return (
-    <section id='company' className="bg-[#EDF3FC] py-16 overflow-hidden">
+    <section id='company' className="bg-[#EDF3FC] py-16 overflow-x-hidden">
       <div className="m-auto w-[90%]">
         <h1
           ref={titleRef}
-          className={`font-extrabold text-[#02033B] text-2xl md:text-4xl text-center leading-snug transition-all duration-1000 ${
+          className={`font-extrabold text-[#02033B] text-2xl md:text-4xl text-center leading-snug overflow-x-hidden transition-all duration-1000 ${
             titleInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
@@ -72,7 +72,7 @@ function Get() {
           <br className="hidden sm:block" /> spyware today
         </h1>
 
-        <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-white shadow-xl hover:shadow-2xl mt-12 p-8 rounded-2xl transition-all duration-700">
+        <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-white shadow-xl hover:shadow-2xl mt-12 p-8 rounded-2xl overflow-x-hidden transition-all duration-700">
 
           <AnimatedCard direction="left">
             <img src={spy} alt="Spyware detection" className="w-16 h-16" />
@@ -130,7 +130,7 @@ function Get() {
 
           <div
             ref={btnRef}
-            className={`flex sm:flex-row flex-col justify-center items-center gap-5 md:col-span-3 transition-all duration-1000 ${
+            className={`flex sm:flex-row flex-col justify-center overflow-x-hidden items-center gap-5 md:col-span-3 transition-all duration-1000 ${
               btnInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >

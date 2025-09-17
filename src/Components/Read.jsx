@@ -33,7 +33,7 @@ function AnimatedBlock({ children, direction = "left" }) {
 function Read() {
   return (
     <section>
-      <div className="mt-10">
+      <div className="mt-10 overflow-x-hidden">
 
         <div className="flex md:flex-row flex-col justify-center items-center gap-10 lg:gap-30 m-auto w-[90%]">
           
@@ -69,7 +69,7 @@ function Read() {
         </div>
 
         {/* Spying section */}
-        <AnimatedBlock direction="bottom">
+        <AnimatedBlock direction="bottom overflow-x-hidden">
           <div className="flex flex-col gap-5 bg-gradient-to-b from-[#2A26CD] via-[#3A36D9] to-[#4946E3] mt-17 py-20 text-center">
             <h1 className="font-extrabold text-white text-lg">Is someone spying on your phone?</h1>
             <p className="text-white text-lg">Find out with Certo</p>

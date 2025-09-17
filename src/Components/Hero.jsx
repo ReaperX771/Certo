@@ -64,7 +64,7 @@ function Hero() {
           {/* Left side text */}
           <div
             ref={textRef}
-            className={`z-20 relative transform transition-all duration-1000 ease-out ${
+            className={`z-20 relative transform transition-all duration-1000 ease-out overflow-x-hidden${
               inView.text ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
             }`}
           >
@@ -96,7 +96,7 @@ function Hero() {
           <div className="relative flex justify-start items-center w-full lg:w-1/2">
             <img
               ref={riRef}
-              className={`top-0 right-0 bottom-0 absolute border-[#4335DE] border-t-8 border-l-8 w-full lg:w-screen h-full object-cover transform transition-all duration-1000 ease-out ${
+              className={`top-0 right-0 bottom-0 absolute border-[#4335DE] border-t-8 border-l-8 w-full lg:w-screen h-full object-cover transform transition-all overflow-x-hidden duration-1000 ease-out ${
                 inView.ri ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
               }`}
               src={ri}
